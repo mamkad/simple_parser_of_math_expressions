@@ -11,6 +11,9 @@ using std::stack;
 
 short SortYardAlgorithm(string const& mainExpr, string& outMainExpr)
 {
+    if (!mainExpr.length())
+        return -7;
+
     outMainExpr.clear();
     outMainExpr.reserve(mainExpr.length());
 
