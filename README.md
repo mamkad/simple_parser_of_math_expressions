@@ -1,0 +1,2 @@
+# simple_parser_of_math_expressions
+parsell parses and evaluates mathematical expressions
